@@ -81,7 +81,7 @@ const WeatherApp = () => {
           console.log(position);
           try {
             const response = await axios.get(
-              `http://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${API_KEY}&units=${unit}`
+              `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${API_KEY}&units=${unit}`
             );
             console.log(response.data);
             setWeatherData(response.data);
