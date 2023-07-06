@@ -102,7 +102,7 @@ const WeatherApp = () => {
     if (weatherData) {
       try {
         const response = await axios.get(
-          `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=${unit}`
+          `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=${unit}`
         );
         setWeatherData((prevData) => ({
           ...prevData,
