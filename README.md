@@ -1,4 +1,4 @@
-## WeatherApp
+# WeatherApp
 WeatherApp is a dynamic web application that provides users with accurate weather information for any city. With a sleek interface and powerful features, this app utilizes React.js and a weather API to display a 5-day forecast, temperature details, and additional information such as humidity, dust levels, and AQI (Air Quality Index). Moreover, the app allows users to view their search history, enabling them to quickly access previously searched locations.
 
 ## Features
